@@ -1,0 +1,14 @@
+#:name getWithNoParams
+#:desc Example get with no query parameters
+GET {{svc}}{{api}}
+Content-Type: application/json
+
+###
+
+#:name getWithParams
+#:desc Example get with query parameters
+GET {{svc}}{{api}}?more=true
+Content-Type: application/json
+
+###
+
